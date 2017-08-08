@@ -1,0 +1,8 @@
+<h2>
+  <%= @superhero.super_name %>
+</h2>
+<b>Name: </b> <%= @superhero.name %>
+<br>
+<% if @superhero.superpower %>
+  <b>Super Power: </b><%= link_to @superhero.superpower.name, @superhero.superpower %>
+<% end %>
