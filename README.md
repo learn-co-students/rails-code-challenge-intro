@@ -3,6 +3,7 @@
 It's time to put our Rails know-how to the test. Today, we have a basic new application.
 
 ## Objectives
++ Routes
 + MVC
 + REST
 + Request/Response Cycle
